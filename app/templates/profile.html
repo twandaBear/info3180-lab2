@@ -1,0 +1,44 @@
+{% extends "base.html"%}
+
+{% block main %}
+
+        <div id="photo">
+            <img src="{{url_for('static', filename='images/profphoto.jpg')}}"/>
+            <h1>Twanda-Lee Briscoe</h1>
+            <p1>@twandab <br>Portland, Jamaica <br> Joined {{joined_date}}</p1>
+        </div>
+        <div id="content">
+            <p2>
+                I am a smart and talented young woman who loves website design and development.
+                Contact me if you'd like to work together on a new project. Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur.
+            </p2>
+
+            <div class="listing">
+                <div class="lists">
+                    <p3>7 <br></p3>
+                    <p4>Posts</p4>
+                </div>
+                <div class="lists">
+                    <p3>100<br></p3>
+                    <p4>Following</p4>
+                </div>
+                <div class="lists">
+                    <p3>250<br></p3>
+                    <p4>Followers</p4>
+                </div>
+
+            </div>
+        <div>
+            <button type="button">Follow</button>
+        </div>
+        </div>
+
+
+
+{% endblock %}
+        
+   
